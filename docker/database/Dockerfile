@@ -14,7 +14,7 @@ COPY acore.json /azerothcore/acore.json
 # run the AzerothCore database assembler
 RUN ./azerothcore/bin/acore-db-asm 1
 
-FROM mysql:5.7
+FROM mysql:8
 
 ENV LANG C.UTF-8
 
